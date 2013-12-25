@@ -104,9 +104,9 @@
                 <configuration>
                     <message>Built Artifact for ${name}-${version}</message>
                     <outputDirectory>${project.build.directory}/repo</outputDirectory>
-                    <branch>refs/heads/builds</branch>
+                    <branch>refs/heads/master</branch>
                     <includes><include>**/*</include></includes>
-                    <repositoryName>EXceLAPI</repositoryName>
+                    <repositoryName>EXceLAPI_Builds</repositoryName>
                     <repositoryOwner>Not2EXceL</repositoryOwner>
                 </configuration>
                 <executions>

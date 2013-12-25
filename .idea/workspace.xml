@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a4221fd-314e-467f-8dc1-d6c609229064" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/EXceLAPI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EXceLAPI.iws" />
@@ -67,19 +67,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="50" selection-start="5182" selection-end="5182" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="2856">
+            <state line="108" column="57" selection-start="4190" selection-end="4190" vertical-scroll-proportion="0.079422385" vertical-offset="1770" max-vertical-offset="2856">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EXceLAPI.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EXceLAPI.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/EXceLAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="21" selection-start="163" selection-end="163" vertical-scroll-proportion="0.16113745" vertical-offset="0" max-vertical-offset="844">
+            <state line="8" column="21" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
@@ -100,8 +100,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/api/command/handler/Handler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/Handler.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/EXceLAPI.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -674,17 +674,21 @@
       <created>1387953194158</created>
       <updated>1387953194158</updated>
       <workItem from="1387953195402" duration="990000" />
-      <workItem from="1387954198051" duration="372000" />
+      <workItem from="1387954198051" duration="1096000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Maven.&#10;&#10;Should work with travis-ci now">
       <created>1387954316807</created>
       <updated>1387954316807</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lol travis-ci has that blob error">
+      <created>1387954582059</created>
+      <updated>1387954582059</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1362000" />
+    <option name="totallyTimeSpent" value="2086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -710,7 +714,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
@@ -728,7 +732,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Updated Maven.&#10;&#10;Should work with travis-ci now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Maven.&#10;&#10;Should work with travis-ci now" />
+    <MESSAGE value="Lol travis-ci has that blob error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lol travis-ci has that blob error" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -767,16 +772,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/EXceLAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="50" selection-start="5182" selection-end="5182" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="2856">
+        <state line="8" column="21" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/EXceLAPI.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="163" selection-end="163" vertical-scroll-proportion="0.16113745" vertical-offset="0" max-vertical-offset="844">
+        <state line="108" column="57" selection-start="4190" selection-end="4190" vertical-scroll-proportion="0.079422385" vertical-offset="1770" max-vertical-offset="2856">
           <folding />
         </state>
       </provider>
