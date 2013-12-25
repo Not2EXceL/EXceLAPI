@@ -1,4 +1,4 @@
-package com.not2excel.api;
+package com.not2excel.api.core;
 
 /**
  * @author Richmond Steele
