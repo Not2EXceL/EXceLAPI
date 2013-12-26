@@ -72,7 +72,7 @@ public class CommandManager
                 "classes that do not use the default constructor.");
         logger.log("SOLUTION: Please use the static registrar registerCommands(object) if you need to register " +
                    "commands from classes that do not use the default constructor.");
-        Class[] classes = ClassEnumerator.getInstance().getClassesFromThisJar();
+        Class[] classes = ClassEnumerator.getInstance().getClassesFromThisJar(plugin);
         if (classes == null || classes.length == 0)
         {
             return;

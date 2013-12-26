@@ -6,7 +6,7 @@
 
     <groupId>com.not2excel.api</groupId>
     <artifactId>EXceLAPI</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
     <packaging>jar</packaging>
 
     <name>EXceLAPI</name>
@@ -118,6 +118,30 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.2</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <finalName>${project.artifactId}-${project.version}</finalName>
+                    <artifactSet>
+                        <excludes>
+                            <exclude>*:bukkit</exclude>
+                            <exclude>*:craftbukkit</exclude>
+                        </excludes>
+                    </artifactSet>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 

@@ -1,5 +1,6 @@
 package com.not2excel.api.core;
 
+import com.not2excel.api.command.CommandManager;
 import com.not2excel.api.logging.LevelLogger;
 import com.not2excel.api.time.TimeManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -12,8 +13,8 @@ import org.bukkit.plugin.java.JavaPlugin;
  */
 public abstract class EXceLPlugin extends JavaPlugin
 {
-    private TimeManager timeManager = TimeManager.newInstance();
-    private LevelLogger logger      = new LevelLogger();
+    protected LevelLogger logger      = new LevelLogger();
+    private   TimeManager timeManager = TimeManager.newInstance();
 
     @Override
     public void onLoad()
@@ -22,7 +23,7 @@ public abstract class EXceLPlugin extends JavaPlugin
         logger.setLogType("EXceL");
         timeManager.resetLastTime();
         load();
-        logger.log(timeManager.timeDifferenceMillis());
+        logger.log("Loaded in " + timeManager.timeDifferenceMillis() + "ms");
     }
 
     @Override
@@ -30,7 +31,9 @@ public abstract class EXceLPlugin extends JavaPlugin
     {
         timeManager.resetLastTime();
         enable();
-        logger.log(timeManager.timeDifferenceMillis());
+        CommandManager commandManager = new CommandManager(this);
+        commandManager.registerCommands();
+        logger.log("Enabled in " + timeManager.timeDifferenceMillis() + "ms");
     }
 
     @Override
@@ -38,7 +41,7 @@ public abstract class EXceLPlugin extends JavaPlugin
     {
         timeManager.resetLastTime();
         disable();
-        logger.log(timeManager.timeDifferenceMillis());
+        logger.log("Disabled in " + timeManager.timeDifferenceMillis() + "ms");
     }
 
     public abstract void load();
