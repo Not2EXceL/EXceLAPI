@@ -1,4 +1,4 @@
-package com.not2excel.api.command.handler;
+package com.not2excel.api.exceptions;
 
 import com.not2excel.api.util.Colorizer;
 import org.bukkit.command.CommandSender;
