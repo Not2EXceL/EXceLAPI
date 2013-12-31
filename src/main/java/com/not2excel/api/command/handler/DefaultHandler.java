@@ -32,8 +32,6 @@ public class DefaultHandler implements Handler
         ParentCommand parent = info.getParent();
         String command = info.getCommand();
 
-        System.out.println(info.getCommand() + "; " + info.getArgs());
-
         if (strings.size() == 0 || parent.getChildCommands().size() == 0)
         {
             if (queue != null)
@@ -93,13 +91,53 @@ public class DefaultHandler implements Handler
                 ChildCommand child = parent.getChildCommands().get(strings.get(0));
                 if (child == null)
                 {
-                    if (info.getUsage().equals(""))
+                    if (queue != null)
                     {
-                        info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command, info.getParent());
+                        if (info.getArgsLength() < info.getCommandHandler().min())
+                        {
+                            info.getSender().sendMessage("Too few arguments.");
+                            info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command,
+                                                                            info.getParent());
+                            throw new CommandException("Too few arguments.");
+                        }
+                        if (info.getCommandHandler().max() != -1 &&
+                            info.getArgsLength() > info.getCommandHandler().max())
+                        {
+                            info.getSender().sendMessage("Too many arguments.");
+                            info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command,
+                                                                            info.getParent());
+                            throw new CommandException("Too many arguments.");
+                        }
+//                      info.setArgs(info.getRegisteredCommand().sortQuotedArgs(strings));
+                        if (!info.getSender().hasPermission(info.getCommandHandler().permission()))
+                        {
+                            Colorizer.send(info.getSender(), "<red>" + info.getCommandHandler().noPermission());
+                            return;
+                        }
+                        try
+                        {
+                            queue.getMethod().invoke(queue.getObject(), info);
+                        }
+                        catch (IllegalAccessException e)
+                        {
+                            e.printStackTrace();
+                        }
+                        catch (InvocationTargetException e)
+                        {
+                            e.printStackTrace();
+                        }
                     }
                     else
                     {
-                        info.getSender().sendMessage(info.getUsage());
+                        if (info.getUsage().equals(""))
+                        {
+                            info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command,
+                                                                            info.getParent());
+                        }
+                        else
+                        {
+                            info.getSender().sendMessage(info.getUsage());
+                        }
                     }
                     return;
                 }

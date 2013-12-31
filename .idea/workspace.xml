@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a4221fd-314e-467f-8dc1-d6c609229064" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/region/Cuboid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/exceptions/CuboidException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/menu/IconMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/menu/MenuClickEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/menu/MenuClickListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/menu/MenuManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/region/ParentRegion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/region/Region.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/region/RegionManager.java" />
-      <change type="MOVED" beforePath="C:\Users\laazy_000\repos\EXceLAPI\src\main\java\com\not2excel\api\command\handler\CommandException.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/exceptions/CommandException.java" />
-      <change type="MOVED" beforePath="C:\Users\laazy_000\repos\EXceLAPI\src\main\java\com\not2excel\api\command\objects\Parent.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ParentCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ChildCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ChildCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/CommandInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/CommandInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/CommandManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/CommandManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/DefaultHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/DefaultHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EXceLAPI.iml" afterPath="$PROJECT_DIR$/EXceLAPI.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/ErrorHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/ErrorHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/Handler.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/Handler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/RegisteredCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/RegisteredCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EXceLAPI.iws" />
@@ -90,7 +70,7 @@
       <file leaf-file-name="DefaultHandler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/DefaultHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="62" selection-start="804" selection-end="804" vertical-scroll-proportion="0.5510204" vertical-offset="17" max-vertical-offset="2261">
+            <state line="34" column="38" selection-start="999" selection-end="999" vertical-scroll-proportion="0.14625229" vertical-offset="498" max-vertical-offset="2907">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,8 +118,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/region/Region.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/exceptions/CuboidException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/region/Cuboid.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/DefaultHandler.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/DefaultHandler.java" />
       </list>
     </option>
   </component>
@@ -983,7 +963,7 @@
       <workItem from="1388090286979" duration="16930000" />
       <workItem from="1388298075263" duration="7682000" />
       <workItem from="1388395534198" duration="7157000" />
-      <workItem from="1388512978939" duration="58000" />
+      <workItem from="1388512978939" duration="924000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Maven.&#10;&#10;Should work with travis-ci now">
       <created>1387954316807</created>
@@ -1013,15 +993,19 @@
       <created>1388042414324</created>
       <updated>1388042414324</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fixing a CommandAPI bug">
+      <created>1388513050458</created>
+      <updated>1388513050459</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49388000" />
+    <option name="totallyTimeSpent" value="50254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1032,20 +1016,20 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279483" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3279483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264368" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3264368" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1067,7 +1051,8 @@
     <MESSAGE value="facepalm encrypted the travis username and pass with the wrong repo XD" />
     <MESSAGE value="Added TimeManager, EXcelPlugin to extend instead of JavaPlugin&#10;Made this API a plugin, so I no longer have to shade it" />
     <MESSAGE value="Moved the plugin.yml to be included in shading" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved the plugin.yml to be included in shading" />
+    <MESSAGE value="Fixing a CommandAPI bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing a CommandAPI bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1315,7 +1300,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/menu/MenuManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="52" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.0" vertical-offset="463" max-vertical-offset="1360" />
+        <state line="74" column="52" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.0" vertical-offset="463" max-vertical-offset="1360">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/region/RegionManager.java">
@@ -1390,7 +1377,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/DefaultHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="62" selection-start="804" selection-end="804" vertical-scroll-proportion="0.5510204" vertical-offset="17" max-vertical-offset="2261">
+        <state line="34" column="38" selection-start="999" selection-end="999" vertical-scroll-proportion="0.14625229" vertical-offset="498" max-vertical-offset="2907">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
