@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a4221fd-314e-467f-8dc1-d6c609229064" name="Default" comment="">
+    <list default="true" id="9a4221fd-314e-467f-8dc1-d6c609229064" name="Default" comment="Updated the CommandAPI to current version">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ChildCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ChildCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/CommandInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/CommandInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/CommandManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/CommandManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/DefaultHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/DefaultHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/ErrorHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/ErrorHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/Handler.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/Handler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ParentCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ParentCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/RegisteredCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/RegisteredCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EXceLAPI.iws" />
@@ -67,13 +75,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DefaultHandler.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/DefaultHandler.java">
+      <file leaf-file-name="CommandManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/CommandManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="38" selection-start="999" selection-end="999" vertical-scroll-proportion="0.14625229" vertical-offset="498" max-vertical-offset="2907">
+            <state line="327" column="24" selection-start="10701" selection-end="10701" vertical-scroll-proportion="0.0" vertical-offset="4760" max-vertical-offset="6970">
+              <folding>
+                <element signature="e#1214#1244#0" expanded="true" />
+                <element signature="e#1354#1381#0" expanded="true" />
+                <element signature="e#1763#1774#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParentCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ParentCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="13" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisteredCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/RegisteredCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="12" selection-start="2121" selection-end="2121" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="3570">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="16" selection-start="397" selection-end="397" vertical-scroll-proportion="0.16365825" vertical-offset="0" max-vertical-offset="3281">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,7 +131,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/api/command/handler/Handler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/Handler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/EXceLAPI.java" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/core/EXceLAPI.java" />
@@ -101,11 +139,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/time/TimeManager.java" />
         <option value="$PROJECT_DIR$/plugin.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/core/EXceLAPI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/CommandManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/reflection/ClassEnumerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/core/EXceLPlugin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/build/PlayerGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/RegisteredCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/menu/MenuClickHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/menu/MenuClickEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/menu/IconMenu.java" />
@@ -113,13 +149,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/menu/MenuManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/menu/IconMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/Parent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ParentCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/region/ParentRegion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/region/Region.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/exceptions/CuboidException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/region/Cuboid.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/QueuedCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/Child.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ParentCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ChildCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/AbstractCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/CommandInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/ErrorHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/Handler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/DefaultHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/CommandManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/RegisteredCommand.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -423,7 +468,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -686,7 +731,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -695,7 +740,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="editor" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -712,12 +757,15 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\laazy_000\repos\EXceLAPI\src\main\java\com\not2excel\api" />
       <recent name="C:\Users\laazy_000\repos\EXceLAPI\src\main\java\com\not2excel\api\menu" />
       <recent name="C:\Users\laazy_000\repos\EXceLAPI\src\main\java\com\not2excel\api\command" />
       <recent name="C:\Users\laazy_000\repos\EXceLAPI\src\main\java\com\not2excel\api\command\objects" />
       <recent name="C:\Users\laazy_000\repos\EXceLAPI\src\main\java\com\not2excel\api\command\handler" />
-      <recent name="C:\Users\laazy_000\repos\EXceLAPI\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\laazy_000\repos\EXceLAPI\src\main\resources" />
@@ -963,7 +1011,11 @@
       <workItem from="1388090286979" duration="16930000" />
       <workItem from="1388298075263" duration="7682000" />
       <workItem from="1388395534198" duration="7157000" />
-      <workItem from="1388512978939" duration="924000" />
+      <workItem from="1388512978939" duration="2324000" />
+      <workItem from="1388569284735" duration="4487000" />
+      <workItem from="1388714899677" duration="2230000" />
+      <workItem from="1388731962781" duration="9000" />
+      <workItem from="1389285057887" duration="1376000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Maven.&#10;&#10;Should work with travis-ci now">
       <created>1387954316807</created>
@@ -997,11 +1049,15 @@
       <created>1388513050458</created>
       <updated>1388513050459</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixing a CommandAPI bug&#10;">
+      <created>1388513905860</created>
+      <updated>1388513905860</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50254000" />
+    <option name="totallyTimeSpent" value="59756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -1021,15 +1077,15 @@
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279483" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883242" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3279483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3264368" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264368" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1052,7 +1108,8 @@
     <MESSAGE value="Added TimeManager, EXcelPlugin to extend instead of JavaPlugin&#10;Made this API a plugin, so I no longer have to shade it" />
     <MESSAGE value="Moved the plugin.yml to be included in shading" />
     <MESSAGE value="Fixing a CommandAPI bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing a CommandAPI bug" />
+    <MESSAGE value="Fixing a CommandAPI bug&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing a CommandAPI bug&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1062,6 +1119,29 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="51" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/DefaultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="63" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="2210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/RegisteredCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="42" selection-start="1419" selection-end="1419" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="4811">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/region/Region.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
@@ -1073,7 +1153,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="4" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="323">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1085,46 +1165,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ParentCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/DefaultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="27" selection-start="2130" selection-end="2130" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="2210">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/CommandInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/logging/LogType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="5" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="595" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ChildCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/CommandManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6919">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1210,11 +1253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="230" selection-end="230" vertical-scroll-proportion="0.2014218" vertical-offset="0" max-vertical-offset="844" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="844">
@@ -1238,11 +1276,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="535" />
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/core/EXceLAPI.java">
@@ -1255,42 +1293,14 @@
         <state line="35" column="27" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="986" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/DefaultChildCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/RegisteredCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="91" selection-start="1529" selection-end="1529" vertical-scroll-proportion="-3.747537" vertical-offset="3570" max-vertical-offset="4556">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/menu/MenuClickEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/CommandInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3638">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/logging/LogType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="5" selection-start="437" selection-end="437" vertical-scroll-proportion="0.5224586" vertical-offset="0" max-vertical-offset="846" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/CommandManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="28" selection-start="1935" selection-end="1935" vertical-scroll-proportion="-1.6938776" vertical-offset="2040" max-vertical-offset="6919">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/menu/IconMenu.java">
@@ -1300,28 +1310,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/menu/MenuManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="52" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.0" vertical-offset="463" max-vertical-offset="1360">
-          <folding />
-        </state>
+        <state line="74" column="52" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.0" vertical-offset="463" max-vertical-offset="1360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/region/RegionManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ChildCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="367" selection-end="367" vertical-scroll-proportion="0.2045728" vertical-offset="0" max-vertical-offset="1717">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ParentCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
@@ -1363,6 +1357,82 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="30" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1020">
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/CommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="18" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/CommandInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="53" selection-start="2844" selection-end="2844" vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="3723">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/ErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="51" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/DefaultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="63" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/CommandManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="327" column="24" selection-start="10701" selection-end="10701" vertical-scroll-proportion="0.0" vertical-offset="4760" max-vertical-offset="6970">
+          <folding>
+            <element signature="e#1214#1244#0" expanded="true" />
+            <element signature="e#1354#1381#0" expanded="true" />
+            <element signature="e#1763#1774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ParentCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/QueuedCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="205" selection-end="205" vertical-scroll-proportion="0.2014218" vertical-offset="0" max-vertical-offset="844">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/ChildCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="367" selection-end="367" vertical-scroll-proportion="0.2045728" vertical-offset="0" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/objects/RegisteredCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="12" selection-start="2121" selection-end="2121" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="3570">
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -1370,17 +1440,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="397" selection-end="397" vertical-scroll-proportion="0.1632653" vertical-offset="0" max-vertical-offset="3281">
+        <state line="8" column="16" selection-start="397" selection-end="397" vertical-scroll-proportion="0.16365825" vertical-offset="0" max-vertical-offset="3281">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/not2excel/api/command/handler/DefaultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="38" selection-start="999" selection-end="999" vertical-scroll-proportion="0.14625229" vertical-offset="498" max-vertical-offset="2907">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

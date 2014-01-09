@@ -15,9 +15,11 @@ public class ParentCommand
 
     public void addChild(String s, ChildCommand child)
     {
-        synchronized (childCommands)
         {
-            childCommands.put(s.toLowerCase(), child);
+            synchronized (childCommands)
+            {
+                childCommands.put(s.toLowerCase(), child);
+            }
         }
     }
 

@@ -29,26 +29,25 @@ public class DefaultHandler implements Handler
     public void handleCommand(CommandInfo info) throws CommandException
     {
         List<String> strings = info.getArgs();
-        ParentCommand parent = info.getParent();
+        ParentCommand parentCommand = info.getParentCommand();
         String command = info.getCommand();
 
-        if (strings.size() == 0 || parent.getChildCommands().size() == 0)
+        if (strings.size() == 0 || parentCommand.getChildCommands().size() == 0)
         {
             if (queue != null)
             {
                 if (info.getArgsLength() < info.getCommandHandler().min())
                 {
                     info.getSender().sendMessage("Too few arguments.");
-                    info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command, info.getParent());
+                    info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command, info.getParentCommand());
                     throw new CommandException("Too few arguments.");
                 }
                 if (info.getCommandHandler().max() != -1 && info.getArgsLength() > info.getCommandHandler().max())
                 {
                     info.getSender().sendMessage("Too many arguments.");
-                    info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command, info.getParent());
+                    info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command, info.getParentCommand());
                     throw new CommandException("Too many arguments.");
                 }
-//                info.setArgs(info.getRegisteredCommand().sortQuotedArgs(strings));
                 if (!info.getSender().hasPermission(info.getCommandHandler().permission()))
                 {
                     Colorizer.send(info.getSender(), "<red>" + info.getCommandHandler().noPermission());
@@ -69,16 +68,16 @@ public class DefaultHandler implements Handler
             }
             else
             {
-                info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command, info.getParent());
+                info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command, info.getParentCommand());
             }
         }
-        if (strings.size() > 0)
+        else if (strings.size() > 0)
         {
-            if (strings.get(0).equalsIgnoreCase("help") && !parent.getChildCommands().containsKey("help"))
+            if (strings.get(0).equalsIgnoreCase("help") && !parentCommand.getChildCommands().containsKey("help"))
             {
                 if (info.getUsage().equals(""))
                 {
-                    info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command, info.getParent());
+                    info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command, info.getParentCommand());
                 }
                 else
                 {
@@ -86,58 +85,18 @@ public class DefaultHandler implements Handler
                 }
                 return;
             }
-            synchronized (parent.getChildCommands())
+            synchronized (parentCommand.getChildCommands())
             {
-                ChildCommand child = parent.getChildCommands().get(strings.get(0));
+                ChildCommand child = parentCommand.getChildCommands().get(strings.get(0));
                 if (child == null)
                 {
-                    if (queue != null)
+                    if (info.getUsage().equals(""))
                     {
-                        if (info.getArgsLength() < info.getCommandHandler().min())
-                        {
-                            info.getSender().sendMessage("Too few arguments.");
-                            info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command,
-                                                                            info.getParent());
-                            throw new CommandException("Too few arguments.");
-                        }
-                        if (info.getCommandHandler().max() != -1 &&
-                            info.getArgsLength() > info.getCommandHandler().max())
-                        {
-                            info.getSender().sendMessage("Too many arguments.");
-                            info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command,
-                                                                            info.getParent());
-                            throw new CommandException("Too many arguments.");
-                        }
-//                      info.setArgs(info.getRegisteredCommand().sortQuotedArgs(strings));
-                        if (!info.getSender().hasPermission(info.getCommandHandler().permission()))
-                        {
-                            Colorizer.send(info.getSender(), "<red>" + info.getCommandHandler().noPermission());
-                            return;
-                        }
-                        try
-                        {
-                            queue.getMethod().invoke(queue.getObject(), info);
-                        }
-                        catch (IllegalAccessException e)
-                        {
-                            e.printStackTrace();
-                        }
-                        catch (InvocationTargetException e)
-                        {
-                            e.printStackTrace();
-                        }
+                        info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command, info.getParentCommand());
                     }
                     else
                     {
-                        if (info.getUsage().equals(""))
-                        {
-                            info.getRegisteredCommand().displayDefaultUsage(info.getSender(), command,
-                                                                            info.getParent());
-                        }
-                        else
-                        {
-                            info.getSender().sendMessage(info.getUsage());
-                        }
+                        info.getSender().sendMessage(info.getUsage());
                     }
                     return;
                 }

@@ -6,7 +6,7 @@
 
     <groupId>com.not2excel.api</groupId>
     <artifactId>EXceLAPI</artifactId>
-    <version>1.3</version>
+    <version>1.4</version>
     <packaging>jar</packaging>
 
     <name>EXceLAPI</name>
